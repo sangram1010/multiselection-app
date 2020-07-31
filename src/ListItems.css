@@ -1,0 +1,77 @@
+
+.mainContainer{
+    background-color: #00BCD4;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container{
+    margin: 0px 10px 0px 10px;
+}
+.listitem{
+    padding: 10px;
+    border-bottom: 0.5px solid;
+}
+
+.listTitle{
+    background-color: #2f375f;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.iconSelected{
+    float: right;
+    color: #1e88dc;
+}
+
+.iconCaret{
+    position: absolute;
+    right: 8%;
+    color: white;
+}
+
+.listItemSubCat{
+    background-color: #9E9E9E;
+    color: white;
+}
+
+.listItemSubProd{
+    background-color: ghostwhite;
+    color: black;
+}
+
+.inputFilter{
+    width: -webkit-fill-available;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.productBtn{
+    padding: 10px;
+    width: 80%;
+    background-color: #00bcd4;
+    border: none;
+    margin: 5px;
+}
+
+.doneBtn{
+    position: absolute;
+    right: 2%;
+    border-radius: 5px;
+    padding: 5px;
+    width: 25%;
+}

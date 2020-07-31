@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import ListItems from "./ListItems"
 import CategoriesData from "./Data"
-import "./App.css";
+import SubCategories from "./SubCategories";
 
 const CategoriesContext = React.createContext();
 
 
-class App extends Component {
+class Categories extends Component {
     
     constructor(props) {
         super(props);
@@ -16,6 +16,10 @@ class App extends Component {
 
 
     render() {
+
+        // condition SubCatList={}
+        //let subCategories = <SubCategories></SubCategories>
+
         return (
             <div>
                 <ListItems ListData={CategoriesData}></ListItems>
@@ -24,4 +28,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Categories;
